@@ -158,7 +158,7 @@ gulp.task("build", gulp.series(
   "copy",
   "css",
   "scripts",
-  "webpack",
+  // "webpack",
   "sprite",
   "html"
   ));

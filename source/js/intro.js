@@ -92,7 +92,7 @@ document.addEventListener('aos:in', ({ detail }) => {
   }
 });
 
-const scroll = new SmoothScroll('.intro__more', {
-  speed: 1000,
-  speedAsDuration: true
-});
+// const scroll = new SmoothScroll('.intro__more', {
+//   speed: 1000,
+//   speedAsDuration: true
+// });
