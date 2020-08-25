@@ -1,0 +1,24 @@
+.btn {
+  box-shadow: 0 20px 30px rgba(22,22,21,.1);
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 64px;
+  color: #161615;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 400;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 246px;
+  user-select: none;
+  pointer-events: all;
+  text-transform: uppercase;
+  transition: .3s ease-in-out;
+  backface-visibility: hidden;
+}
+.btn_blue {
+  background-color: #06baed;
+    color: #fff;
+}
