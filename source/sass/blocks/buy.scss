@@ -118,6 +118,11 @@
     animation: 3s infinite alternate small;
   }
 }
+@media (min-width: $desktop) {
+  .buy {
+    margin-bottom: -100px;
+  }
+}
 
 
 

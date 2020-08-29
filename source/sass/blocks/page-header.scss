@@ -9,3 +9,11 @@
 .page-header__pic {
   margin: 0;
 }
+
+@media (min-width: $desktop) {
+  .page-header__logo {
+    margin: 10px 22px 0px 40px;
+    max-width: 200%;
+    width: 300px;
+  }
+}

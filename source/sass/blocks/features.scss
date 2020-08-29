@@ -44,3 +44,65 @@
   opacity: 0;
   transition-property: transform,opacity;
 }
+@media (min-width: $desktop)  {
+  .wrapper {
+    overflow: visible;
+  }
+  .features__list {
+   flex-direction: row;
+   justify-content: space-evenly;
+  }
+  .features__decor {
+    display: block;
+    user-select: none;
+    position: absolute;
+    transform-style: flat;
+    &_first {
+      top: 10%;
+      left: 84%;
+    }
+    &_second {
+      top: 27%;
+      left: 90%;
+      z-index: 1;
+    }
+    &_third {
+      top: -24%;
+        left: 80%;
+        z-index: 1;
+    }
+    &_fourth {
+      right: -4%;
+        top: 90%;
+        z-index: 1;
+    }
+    &_fifth {
+      left: 80%;
+      top: 70%;
+    }
+    &_sixth {
+      left: 15%;
+      top: 90%;
+    }
+    &_seventh {
+      left: 5%;
+      top: 60%;
+      width: 67px;
+      z-index: 1;
+    }
+    &_eigth {
+      left: -5%;
+      top: 85%;
+    }
+    &_tenth {
+      left: -5%;
+        top: 10%;
+        z-index: -1;
+    }
+    &_eleventh {
+      left: 10%;
+      top: 25%;
+    }
+  }
+}
+

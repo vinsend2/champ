@@ -80,3 +80,21 @@
   transform: skewX(-5deg);
   white-space: nowrap;
 }
+@media (min-width: $desktop) {
+  .about__col {
+    width: 50%;
+    margin-left: 50%;
+  }
+  .about__pic {
+    transform: none;
+  }
+  .about_blue .about__col {
+    margin-top: 0;
+    margin-left: 0;
+  }
+  .about_blue .about__pic {
+      margin-left: 50%;
+      transform: translateY(120px);
+  }
+}
+

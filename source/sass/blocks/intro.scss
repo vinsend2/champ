@@ -525,4 +525,304 @@ background-position: center;
     }
   }
 }
+@media (min-width: $desktop) {
+  .intro {
+    &::after {
+      height: 250px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='1440' height='130' viewBox='0 0 1440 130'%3E%3Cdefs%3E%3Cpath id='a2m0a' d='M0 810h1440V680z'/%3E%3C/defs%3E%3Cg%3E%3Cg transform='translate(0 -680)'%3E%3Cuse fill='%23fff' xlink:href='%23a2m0a'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+    &::before {
+      height: 210px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='1440' height='130' viewBox='0 0 1440 130'%3E%3Cdefs%3E%3Cpath id='flyta' d='M1440 0H0v130z'/%3E%3C/defs%3E%3Cg%3E%3Cg%3E%3Cuse fill='%23161615' xlink:href='%23flyta'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    }
+  }
+  .intro__slider {
+    height: 830px;
+  }
+  .intro__pic {
+    width: 500px;
+    z-index: -1;
+  }
+  .intro__inner {
+
+    &--first {
+      & .intro__decor {
+        &--first {
+          width: 114px;
+          height: 114px;
+          left: 30%;
+          background-image: url("../img/banana-slide/desktop/banana-1.png");
+        }
+        &--second {
+          width: 154px;
+          height: 154px;
+          left: 50%;
+          top: 10%;
+          background-image: url("../img/banana-slide/desktop/banana-4.png");
+        }
+        &--third {
+          width: 191px;
+            height: 200px;
+            left: 10%;
+            top: 30%;
+            background-image: url("../img/banana-slide/desktop/banana-3.png");
+
+        }
+        &--fourth {
+          width: 170px;
+          left: 75%;
+            top: 20%;
+            height: 182px;
+            background-image: url("../img/banana-slide/desktop/banana-2.png");
+        }
+      }
+    }
+  }
+  .intro__inner {
+    &--second {
+      & .intro__decor {
+        &--first {
+          width: 211px;
+          height: 188px;
+          background-image: url("../img/caramel-slide/desktop/Image_30.png");
+          top: 15%;
+          left: 10%;
+        }
+        &--second {
+          width: 75px;
+          height: 56px;
+          background-image: url("../img/caramel-slide/desktop/Image_29.png");
+          top: 14%;
+        }
+        &--third {
+          width: 53px;
+          height: 54px;
+          background-image: url("../img/caramel-slide/desktop/Image_31.png");
+        }
+        &--fourth {
+          width: 71px;
+          height: 78px;
+          background-image: url("../img/caramel-slide/desktop/Image_27.png");
+          left: 10%;
+          top: 50%;
+        }
+        &--fifth {
+          width: 167px;
+          height: 116px;
+          top: 30%;
+          left: 85%;
+          background-image: url("../img/caramel-slide/desktop/Image_28.png");
+        }
+      }
+    }
+  }
+  .intro__inner {
+    &--third {
+      & .intro__decor {
+        &--first {
+          width: 89px;
+          height: 94px;
+          background-image: url("../img/cherry-slide/desktop/choco-7.png");
+        }
+        &--second {
+          width: 57px;
+          height: 62px;
+          background-image: url("../img/cherry-slide/desktop/Image_4.png");
+
+        }
+        &--third {
+          width: 104px;
+          height: 95px;
+          background-image: url("../img/cherry-slide/desktop/cherry-1.png");
+        }
+        &--fourth {
+          width: 253px;
+          height: 239px;
+          left: -12%;
+          top: 25%;
+          background-image: url("../img/cherry-slide/desktop/cherry-2.png");
+        }
+        &--fifth {
+          width: 80px;
+          height: 85px;
+          left: 80%;
+          background-image: url("../img/cherry-slide/desktop/Image_10.png");
+        }
+      }
+    }
+  }
+  .intro__inner {
+    &--fourth {
+      & .intro__decor {
+        &--first {
+          width: 97px;
+          height: 97px;
+          background-image: url("../img/strawberry-slide/desktop/strawberry_[H]_[2].png");
+          left: 20%;
+          top: 20%;
+        }
+        &--second {
+          width: 161px;
+          height: 162px;
+          background-image: url("../img/strawberry-slide/desktop/strawberry-3.png");
+          top: 13%;
+          left: 61%;
+        }
+        &--third {
+          width: 150px;
+          height: 213px;
+          top: 30%;
+          left: -5%;
+          background-image: url("../img/strawberry-slide/desktop/strawberry-4.png");
+        }
+        &--fourth {
+          width: 175px;
+          height: 139px;
+          left: 80%;
+          background-image: url("../img/strawberry-slide/desktop/strawberry-2.png");
+        }
+      }
+    }
+  }
+  .intro__inner {
+    &--fifth {
+      & .intro__decor {
+        &--first {
+          width: 73px;
+          height: 85px;
+          background-image: url("../img/nut-slide/desktop/nut-10.png");
+          top: 27%;
+          left: 18%;
+        }
+        &--second {
+          width: 93px;
+          height: 88px;
+          background-image: url("../img/nut-slide/desktop/nut-2.png");
+          top: 16%;
+          left: 38%;
+        }
+        &--third {
+          width: 72px;
+          height: 70px;
+          background-image: url("../img/nut-slide/desktop/nut-4.png");
+        }
+        &--fourth {
+          width: 112px;
+          height: 117px;
+          top: 10%;
+          background-image: url("../img/nut-slide/desktop/nut-1.png");
+        }
+        &--fifth {
+          width: 126px;
+          height: 99px;
+          left: 11%;
+          background-image: url("../img/nut-slide/desktop/nut-9.png");
+        }
+        &--sixth {
+          width: 122px;
+          height: 89px;
+          left: 80%;
+          background-image: url("../img/nut-slide/desktop/nut-3.png");
+        }
+        &--seventh {
+          width: 52px;
+          height: 59px;
+          left: 90%;
+          top: 35%;
+          z-index: 0;
+          background-image: url("../img/nut-slide/desktop/nut-5.png");
+        }
+      }
+    }
+  }
+  .intro__inner {
+    &--sixth {
+      & .intro__decor {
+        &--first {
+          width: 258px;
+          height: 255px;
+          background-image: url("../img/vanilla-slide/desktop/vanilla-2.png");
+          left: 13%;
+          top: 37%;
+        }
+        &--second {
+          width: 206px;
+          height: 214px;
+          z-index: 0;
+          background-image: url("../img/vanilla-slide/desktop/vanilla-3.png");
+          left: 63%;
+          top: 19%;
+        }
+        &--third {
+          width: 230px;
+          height: 346px;
+          z-index: 1;
+          background-image: url("../img/vanilla-slide/desktop/Group 64@2x.png");
+        }
+      }
+    }
+  }
+  .intro__inner {
+    &--seventh {
+      & .intro__decor {
+        &--first {
+          width: 105px;
+          top: 26%;
+          left: 26.5%;
+          height: 106px;
+          background-image: url("../img/chocolate-slide/desktop/choco-1.png");
+        }
+        &--second {
+          width: 97px;
+          height: 82px;
+          background-image: url("../img/chocolate-slide/desktop/choco-4.png");
+          top: 28%;
+          right: 22%;
+        }
+        &--third {
+          width: 58px;
+          height: 58px;
+          background-image: url("../img/chocolate-slide/desktop/choco-5.png");
+          top: 49%;
+          left: 10.75%;
+        }
+        &--fourth {
+          display: block;
+          top: 45%;
+          left: 23.75%;
+          width: 104px;
+          height: 105px;
+          z-index: 2;
+          background-image: url("../img/chocolate-slide/desktop/choco-3.png");
+        }
+        &--fifth {
+          display: block;
+          top: 48%;
+          left: 58.75%;
+          width: 87px;
+          height: 69px;
+          z-index: 0;
+          background-image: url("../img/chocolate-slide/desktop/choco-2.png");
+        }
+      }
+    }
+  }
+  .intro__controls {
+    bottom: 145px;
+    left: 39%;
+  }
+  .intro__title_small {
+    font-size: 28px;
+
+  }
+  .intro__text {
+    font-size: 16px;
+    line-height: 23px;
+  }
+  .intro__pic_big {
+    margin-top: -150px;
+  }
+}
+
+
 

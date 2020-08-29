@@ -3,3 +3,8 @@
     height: 100px;
     background-color: #161615;
 }
+@media (min-width: $desktop) {
+  .page-footer__bottom {
+    height: 200px;
+  }
+}
