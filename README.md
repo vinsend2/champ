@@ -1,4 +1,4 @@
-# Проект «Vaily»
+# Проект «Champ»
 
 <table>
   <thead>
@@ -31,4 +31,4 @@
 *	### `.travis.yml`
 *	### `package.json`
 ---
-<img src='mockup/vaily.png'>
+<img src='mockup/champ.png'>
